@@ -19,10 +19,10 @@
   resolved "https://registry.npmjs.org/@antfu/ni/-/ni-0.18.8.tgz"
   integrity sha512-0m++AudwQq+wWAz/Ax7g+sh/wFW51HHQ6BtPLsuTAsFIzWB/bv/0COwZE7BRS+u0nqMb6Ks6nlk6cY1TpPDwHg==
 
-"@antfu/utils@^0.5.2":
-  version "0.5.2"
-  resolved "https://registry.npmjs.org/@antfu/utils/-/utils-0.5.2.tgz"
-  integrity sha512-CQkeV+oJxUazwjlHD0/3ZD08QWKuGQkhnrKo3e6ly5pd48VUpXbb77q0xMU4+vc2CkJnDS02Eq/M9ugyX20XZA==
+"@antfu/utils@^0.7.2":
+  version "0.7.5"
+  resolved "https://registry.yarnpkg.com/@antfu/utils/-/utils-0.7.5.tgz#c36f37add92a7de57b9c29ae0c1f399706bff345"
+  integrity sha512-dlR6LdS+0SzOAPx/TPRhnoi7hE251OVeT2Snw0RguNbBSbjUHdWr0l3vcUUDg26rEysT89kCbtw1lVorBXLLCg==
 
 "@apideck/better-ajv-errors@^0.3.1":
   version "0.3.3"
@@ -4036,10 +4036,10 @@ defined@^1.0.0:
   resolved "https://registry.npmjs.org/defined/-/defined-1.0.0.tgz"
   integrity "sha1-yY2bzvdWdBiOEQlpFRGZ45sfppM= sha512-Y2caI5+ZwS5c3RiNDJ6u53VhQHv+hHKwhkI1iHvceKUHw9Df6EK2zRLfjejRgMuCuxK7PfSWIMwWecceVvThjQ=="
 
-defu@^6.1.0:
-  version "6.1.1"
-  resolved "https://registry.npmjs.org/defu/-/defu-6.1.1.tgz"
-  integrity sha512-aA964RUCsBt0FGoNIlA3uFgo2hO+WWC0fiC6DBps/0SFzkKcYoM/3CzVLIa5xSsrFjdioMdYgAIbwo80qp2MoA==
+defu@^6.1.2:
+  version "6.1.2"
+  resolved "https://registry.yarnpkg.com/defu/-/defu-6.1.2.tgz#1217cba167410a1765ba93893c6dbac9ed9d9e5c"
+  integrity sha512-+uO4+qr7msjNNWKYPHqN/3+Dx3NFkmIzayk2L1MyZQlvgZb/J1A0fo410dpKrN2SnqFjt8n4JL8fDJE0wIgjFQ==
 
 del@^6.0.0:
   version "6.0.0"
@@ -6512,10 +6512,10 @@ jest@^27.4.3:
     import-local "^3.0.2"
     jest-cli "^27.5.1"
 
-jiti@^1.16.0:
-  version "1.16.0"
-  resolved "https://registry.npmjs.org/jiti/-/jiti-1.16.0.tgz"
-  integrity sha512-L3BJStEf5NAqNuzrpfbN71dp43mYIcBUlCRea/vdyv5dW/AYa1d4bpelko4SHdY3I6eN9Wzyasxirj1/vv5kmg==
+jiti@^1.18.2:
+  version "1.19.1"
+  resolved "https://registry.yarnpkg.com/jiti/-/jiti-1.19.1.tgz#fa99e4b76a23053e0e7cde098efe1704a14c16f1"
+  integrity sha512-oVhqoRDaBXf7sjkll95LHVS6Myyyb1zaunVwk4Z0+WPSW4gjS0pl01zYKHScTuyEhQsFxV5L4DR5r+YqSyqyyg==
 
 joi@^17.6.0:
   version "17.6.0"
@@ -8999,9 +8999,9 @@ run-parallel@^1.1.9:
   dependencies:
     queue-microtask "^1.2.2"
 
-rxjs@*, rxjs@^7.5.4, rxjs@^7.8.1:
+rxjs@^7.5.2, rxjs@^7.5.4, rxjs@^7.8.1:
   version "7.8.1"
-  resolved "https://registry.npmjs.org/rxjs/-/rxjs-7.8.1.tgz"
+  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-7.8.1.tgz#6f6f3d99ea8044291efd92e7c7fcf562c4057543"
   integrity sha512-AA3TVj+0A2iuIoQkWEK/tqFjBq2j+6PO6Y0zJcvzLAFhEFIO3HL0vls9hWLncZbAAbK0mar7oZ4V079I/qPMxg==
   dependencies:
     tslib "^2.1.0"
@@ -10085,13 +10085,13 @@ unbox-primitive@^1.0.1:
     which-boxed-primitive "^1.0.2"
 
 unconfig@^0.3.7:
-  version "0.3.7"
-  resolved "https://registry.npmjs.org/unconfig/-/unconfig-0.3.7.tgz"
-  integrity sha512-1589b7oGa8ILBYpta7TndM5mLHLzHUqBfhszeZxuUBrjO/RoQ52VGVWsS3w0C0GLNxO9RPmqkf6BmIvBApaRdA==
+  version "0.3.9"
+  resolved "https://registry.yarnpkg.com/unconfig/-/unconfig-0.3.9.tgz#aa4610fd2982c319b4ca87b703741f60c0873e21"
+  integrity sha512-8yhetFd48M641mxrkWA+C/lZU4N0rCOdlo3dFsyFPnBHBjMJfjT/3eAZBRT2RxCRqeBMAKBVgikejdS6yeBjMw==
   dependencies:
-    "@antfu/utils" "^0.5.2"
-    defu "^6.1.0"
-    jiti "^1.16.0"
+    "@antfu/utils" "^0.7.2"
+    defu "^6.1.2"
+    jiti "^1.18.2"
 
 unicode-canonical-property-names-ecmascript@^2.0.0:
   version "2.0.0"
