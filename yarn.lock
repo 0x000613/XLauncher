@@ -8999,9 +8999,9 @@ run-parallel@^1.1.9:
   dependencies:
     queue-microtask "^1.2.2"
 
-rxjs@*, rxjs@^7.5.4, rxjs@^7.8.1:
+rxjs@^7.5.2, rxjs@^7.5.4, rxjs@^7.8.1:
   version "7.8.1"
-  resolved "https://registry.npmjs.org/rxjs/-/rxjs-7.8.1.tgz"
+  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-7.8.1.tgz#6f6f3d99ea8044291efd92e7c7fcf562c4057543"
   integrity sha512-AA3TVj+0A2iuIoQkWEK/tqFjBq2j+6PO6Y0zJcvzLAFhEFIO3HL0vls9hWLncZbAAbK0mar7oZ4V079I/qPMxg==
   dependencies:
     tslib "^2.1.0"
@@ -10520,9 +10520,9 @@ winreg@1.2.4:
   integrity "sha1-ugZWKbepJRMOFXeRCM9UCZDpjRs= sha512-IHpzORub7kYlb8A43Iig3reOvlcBJGX9gZ0WycHhghHtA65X0LYnMRuJs+aH1abVnMJztQkvQNlltnbPi5aGIA=="
 
 word-wrap@^1.2.3, word-wrap@~1.2.3:
-  version "1.2.3"
-  resolved "https://registry.npmjs.org/word-wrap/-/word-wrap-1.2.3.tgz"
-  integrity sha512-Hz/mrNwitNRh/HUAtM/VT/5VH+ygD6DV7mYKZAtHOrbs8U7lvPS6xf7EJKMF0uW1KJCl0H701g3ZGus+muE5vQ==
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/word-wrap/-/word-wrap-1.2.4.tgz#cb4b50ec9aca570abd1f52f33cd45b6c61739a9f"
+  integrity sha512-2V81OA4ugVo5pRo46hAoD2ivUJx8jXmWXfUkY4KFNw0hEptvN0QfH3K4nHiwzGeKl5rFKedV48QVoqYavy4YpA==
 
 workbox-background-sync@6.5.0:
   version "6.5.0"
